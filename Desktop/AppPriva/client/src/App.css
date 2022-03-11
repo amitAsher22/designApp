@@ -1,0 +1,195 @@
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:  center;
+  align-content:flex-end
+ 
+}
+
+.coverPic{
+  background-image: url("./images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 80vh;
+ 
+  /* min-height:80vh; 
+  max-width:100vw; */
+  
+}
+
+.sizeLogo{
+  height: 20vh;
+  width: 10vw;
+  margin: 0;
+  padding: 0;
+ 
+  
+  
+}
+.sizeLogo:hover{
+  cursor: pointer;
+ 
+}
+
+.btnRegister{
+  
+    min-width: 80px;
+    max-height: 30px;
+    line-height: 1.5em;
+    border-radius: 49px;
+    font: inherit;
+    border: 2px solid rgb(236, 146, 1);
+    margin: 10px;
+    background: none;
+    color: rgb(236, 146, 1);
+    
+   
+}
+.btnRegister:hover{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
+.inputSearch{
+width: 80%;
+border-radius: 49px;
+padding: 15px;
+ 
+}
+
+.mainInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items:center
+  
+}
+
+.titleH1{
+  color: white;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 450px ) {
+ .sizeLogo {
+  height: 30vh;
+  width: 30vw;
+  }
+  .titleH1{
+    font-size: 30px;
+  }
+    
+}
+/* ////////////////////////////////////////////////////////////////////////////////  Categories */
+
+.divCategories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.divCategories:hover{
+  cursor: pointer;
+}
+
+
+.imgCategories{
+  width: 3vw;
+}
+
+li{
+  list-style-type: none; 
+}
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+}
+
+.CategoriesSection{
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+@media only screen and (max-width: 450px ) {
+ 
+ul{
+ place-items: unset;
+ margin-right: 10px;
+
+}
+
+  .imgCategories{
+    width: 30px;
+  }
+     
+ }
+
+ /* ///////////////////////////////////////////////////////////// Owners */
+
+ .coverOwners{
+   background-color: Teal;
+   height: 40px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+ }
+
+ .btnOwners{
+   border-radius: 30px;
+  line-height: 3em;
+  font: inherit;
+  border: 1px solid rgb(153, 153, 153);
+  background: none;
+  color: white;
+  padding: 7px;
+ }
+ .btnOwners:hover{
+   cursor: pointer;
+ }
+
+ /* /////////////////////////////////////////////////////// showAllOwnsers */
+
+.mainComponentsShowAllOwners{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
+/* //////////////////////////////////////////////login-logout google */
+
+.inlineDiv{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  
+  
+  font-family: 'Licorice', cursive;
+  
+}
+
+.removeMargin{
+  margin: 0;
+  text-shadow: 1px 6px #f6f6f6;
+  color: rgb(246, 171, 31);
+ 
+}
+.removeMargin2{
+  margin: 0;
+  font-size: 40px;
+ color: Teal;
+ text-shadow: -3px -3px #f6f6f6;
+
+}

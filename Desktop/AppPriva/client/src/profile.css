@@ -1,0 +1,93 @@
+
+.imgProfile{
+    width: 100%;
+    text-align: center;
+    gap: 1em;
+}
+
+.fullNamePerson{
+    color: #454545;
+    font-size:4.45rem;
+    margin: 0;
+  
+}
+
+
+/* .detailsProfile{
+    border: 1px solid rgb(3, 3, 3);
+} */
+
+.sentencePerson{
+    color: #00a1d6;
+    background-color: #ebfaff;
+    font-weight: 100;
+    width: 13%;
+    
+   
+  
+   
+  
+}
+
+.FullNameDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.detailsPerson{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto) ;
+    grid-template-rows: repeat(2 , auto);
+    border: 1px solid rgb(197, 197, 197);
+    background-color: blanchedalmond;
+    
+    padding: 50px;
+   
+}
+ div > p{
+    border: 1px solid rgb(192, 192, 192);
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+svg{
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* ///////////////////////////////// buttons */
+
+
+.buttonsPerson{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto) ;
+    grid-template-rows: repeat(3 , auto);
+    padding-top: 2px;
+    gap: 4px;
+}
+
+.btnBin{
+    background-color: rgb(245, 0, 0);
+}
+
+.btnBin{
+    cursor: pointer;
+}
+
+.btnUpdate{
+    background-color: rgb(9, 24, 243);
+}
+
+.btnUpdate{
+    cursor: pointer;
+}
+
+.btnwebsite{
+    background-color: rgb(235, 211, 0);
+}
+

@@ -1,0 +1,73 @@
+
+.coverDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background: #fff;
+   gap: 10px;
+   padding: 10px;
+   font-family: 'Redacted Script', cursive;
+
+ 
+   
+
+}
+
+.divOwner{
+    display: flex;
+    flex-direction: column;
+    border: rgb(121, 121, 121) 1px solid;
+    box-shadow: 0px 1px 30px 2px rgb(206, 206, 206);
+    background-color: rgb(69, 102, 102);
+    text-align: center;
+   min-width: 30%;
+    
+
+       
+}
+
+
+.lower_container{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(230, 230, 230);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.divOwner:hover{
+    cursor: pointer;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+   
+    
+}
+path{
+    font-size: 30px;
+}
+
+svg{
+    font-size: 20px;
+}
+
+.titleName{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    
+}
+
+.sentence{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 1px;
+    background-color: rgb(245, 173, 39);
+    border-radius: 10px;
+    color: black
+}
